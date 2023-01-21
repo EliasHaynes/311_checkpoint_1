@@ -9,7 +9,7 @@ app.use(express.static('public'));
 //Use the routes
 app.use(routes)
 
-app.get('/', (req, res) => res.send('default route'))
+// app.get('/', (req, res) => res.send('default route'))
 
 app.listen(port, () => {
   console.log('app is listening on:', port)
